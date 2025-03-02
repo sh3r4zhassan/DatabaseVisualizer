@@ -1,4 +1,5 @@
-Database Visualizer
+# Database Visualizer
+
 Database Visualizer is a tool that connects to a database, retrieves data, and generates visual representations. It provides two main features:
 
 Data Plotting: Reads values from a database and plots them for easy analysis.
