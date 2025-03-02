@@ -38,12 +38,6 @@ tables = cursor.fetchall()
 query = "SELECT * FROM products;"
 df = pd.read_sql(query, conn)
 
-# Print Data with Headers
-# print(df)
-
-# Export to CSV (Headers Included)
-# df.to_csv("payments.csv", index=False)
-
 
 
 def plot_graph(data, x, title, type_of_graph, y=None):
